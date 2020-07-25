@@ -4,6 +4,7 @@ class String
 
   def sentence?(ending)
    self.ending_sentence = ending
+    if ""
     end 
 
   def question?
