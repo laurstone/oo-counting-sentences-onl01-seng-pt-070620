@@ -1,15 +1,12 @@
 require 'pry'
 
 class String
-  attr_accessor :ending 
+  
 
-  def sentence?(ending_mark)
-   self.ending = ending_mark
-    if "Hi, my name is Sophie.".end_with?(".")
-      return true 
-    else 
-      return false 
-    end 
+   def sentence?
+   self.end_with?(".")
+   
+  end
 
   def question?
     if "What's your name?".end_with?("?")
