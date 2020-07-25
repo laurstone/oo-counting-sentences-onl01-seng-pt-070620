@@ -4,7 +4,10 @@ class String
 
   def sentence?(ending)
    self.ending_sentence = ending
-    if ""
+    if "Hi, my name is Sophie.".end_with?(".")
+      return true 
+    else 
+      return false 
     end 
 
   def question?
