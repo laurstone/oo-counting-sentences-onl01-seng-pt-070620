@@ -4,7 +4,7 @@ class String
   attr_accessor :ending 
 
   def sentence?(ending_mark)
-   self.ending_sentence = ending
+   self.ending = ending
     if "Hi, my name is Sophie.".end_with?(".")
       return true 
     else 
