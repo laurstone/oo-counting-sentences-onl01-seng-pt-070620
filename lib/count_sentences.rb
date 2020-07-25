@@ -2,11 +2,8 @@ require 'pry'
 
 class String
 
-  def sentence?(sentence_end)
-    if "Hi, my name is Sophie.".end_with?(".")
-      return true 
-    else self 
-      return false 
+  def sentence?(ending)
+   
     end 
   end
 
