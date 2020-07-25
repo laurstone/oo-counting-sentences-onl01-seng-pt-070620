@@ -16,8 +16,8 @@ class String
   end
 
   def count_sentences
-    hold_sentences = []
-    hold_sentences = self.split(/\.|\?|\!/)
-    hold_sentences.count
+    new_array = self.split(/[.?!]/).delete_if{|sentence| sentence == ("")}.count
+    #binding.pry
   end
+end
 end
