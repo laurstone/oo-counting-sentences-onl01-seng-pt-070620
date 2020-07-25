@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?(ending)
-   self.ending_mark
+   self.ending_sentence
     end 
   end
 
