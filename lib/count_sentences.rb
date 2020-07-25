@@ -5,7 +5,6 @@ class String
   def sentence?(ending)
    self.ending_sentence = ending
     end 
-  end
 
   def question?
     if "What's your name?".end_with?("?")
