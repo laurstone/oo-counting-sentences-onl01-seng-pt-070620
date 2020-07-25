@@ -1,7 +1,7 @@
 require 'pry'
 
 class String
-  attr_reader
+  attr_accessor :ending 
 
   def sentence?(ending)
    self.ending_sentence = ending
