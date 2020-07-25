@@ -3,7 +3,7 @@ require 'pry'
 class String
   attr_accessor :ending 
 
-  def sentence?(ending)
+  def sentence?(ending_mark)
    self.ending_sentence = ending
     if "Hi, my name is Sophie.".end_with?(".")
       return true 
